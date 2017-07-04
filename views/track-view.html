@@ -1,0 +1,65 @@
+<div ng-controller="trackController" ng-cloak>
+    <div class="container">
+        <div class="row" style="margin:0px!important;padding:0px!important">
+            <div style="width:100%;background: #D6241B;">
+                <ul id="tabs-swipe" class="tabs">
+                    <li class="tab" style="background: #D6241B;"><a class="active" href="/#track" style="color:white;">Track</a></li>
+                    <li class="tab" style="background: #D6241B;"><a href="/#task" style="color:white;">Task</a></li>
+                </ul>
+                <div id="track" class="col s12" style="padding:0.5em">
+                    <div class="col s1" style="font-size:0.7em;padding:0;"><u>JAN</u>
+                        <br>02
+                        <br>THU</div>
+                    <div class="col s11">
+                        <div class="card" style="margin:0;margin-bottom:0.8em;" ng-repeat="x in myTickets">
+                            <div class="card-action" style="padding:0;">
+                                <div class="row" style="padding:1em;margin-bottom:0;">
+                                    <div class="col s2" style="border-right:1px solid gray;">
+                                        <img src="images/bell.svg" style="width:80%;">
+                                    </div>
+                                    <div class="col s10" style="margin-top:-0.6em;">
+                                        {{x.name}}
+                                        <br>
+                                        <span style="color:#404040;font-size:0.8em;margin-top:-1em!important;">Assigned to {{x.userName}}</span>
+                                    </div>
+                                </div>
+                                <hr style="width: 80%;float:left;margin:0;height:3px;margin-top:-3px;background: red;border-style:none;">
+                            </div>
+                        </div>
+                        <!-- <div class="card" style="margin:0;margin-bottom:0.8em;">
+                            <div class="card-action" style="padding:0;">
+                                <div class="row" style="padding:1em;margin-bottom:0;">
+                                    <div class="col s2" style="border-right:1px solid gray;">
+                                        <img src="images/bell.svg" style="width:80%;">
+                                    </div>
+                                    <div class="col s10" style="margin-top:-0.6em;">
+                                        New Card Issue
+                                        <br>
+                                        <span style="color:#404040;font-size:0.8em;margin-top:-1em!important;">Assigned to Sunil Kumar</span>
+                                    </div>
+                                </div>
+                                <hr style="width: 80%;float:left;margin:0;height:3px;margin-top:-3px;background: red;border-style:none;">
+                            </div>
+                        </div>
+                        <div class="card" style="margin:0;margin-bottom:0.8em;">
+                            <div class="card-action" style="padding:0;">
+                                <div class="row" style="padding:1em;margin-bottom:0;">
+                                    <div class="col s2" style="border-right:1px solid gray;">
+                                        <img src="images/bell.svg" style="width:80%;">
+                                    </div>
+                                    <div class="col s10" style="margin-top:-0.6em;">
+                                        New Card Issue
+                                        <br>
+                                        <span style="color:#404040;font-size:0.8em;margin-top:-1em!important;">Assigned to Sunil Kumar</span>
+                                    </div>
+                                </div>
+                                <hr style="width: 80%;float:left;margin:0;height:3px;margin-top:-3px;background: red;border-style:none;">
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div id="task" class="col s12 red">Test 2</div>
+            </div>
+        </div>
+    </div>
+</div>

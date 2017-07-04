@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="40px" viewBox="0 0 34 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile-app-staff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="track&amp;task" transform="translate(-135.000000, -328.000000)" fill="#9B9B9B">
+            <g id="Group-3" transform="translate(106.000000, 287.000000)">
+                <path d="M46,81 C48.2,81 50,79.2 50,77 L42,77 C42,79.2 43.8,81 46,81 L46,81 Z M59,69 L59,58 C59,51.8 54.8,46.8 49,45.4 L49,44 C49,42.4 47.6,41 46,41 C44.4,41 43,42.4 43,44 L43,45.4 C37.2,46.8 33,51.8 33,58 L33,69 L29,73 L29,75 L63,75 L63,73 L59,69 L59,69 Z M55,71 L37,71 L37,58 C37,53 41,49 46,49 C51,49 55,53 55,58 L55,71 L55,71 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
